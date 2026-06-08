@@ -8,4 +8,6 @@ hp_total = hp;
 if (hp <= 0)
 {
 	instance_destroy();
+	
+	obj_player.add_xp(xp_vaule);
 }
