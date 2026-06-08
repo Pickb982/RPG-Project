@@ -10,6 +10,7 @@ draw_set_valign(fa_middle);
 
 //Heakth Bar
 var _health_barw = _barw * (hp / hp_total);
+
 draw_sprite_stretched(spr_box, 0, _dx, _dy, _barw, _barh);
 draw_sprite_ext(spr_box, 1, _dx, _dy, _health_barw, _barh, 0, c_red, 0.6);
 
