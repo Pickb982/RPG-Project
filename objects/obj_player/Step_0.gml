@@ -2,8 +2,8 @@ if (keyboard_check_pressed(vk_space))
 {
 	create_dialog([
 	{
-		name: "Test Diaglog",
-		msg: "It Works!"
+		name: "Test Dialog",
+		msg: "It works!"
 	}
 	])
 }

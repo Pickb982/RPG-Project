@@ -11,8 +11,8 @@ _dy += 16;
 draw_set_font(Font1);
 
 var _name = messages[current_message].name;
-draw_text(_dx, _dy, _name);
+draw_text(_dx + 50, _dy, _name);
 
 _dy += 40;
 
-draw_text_ext(_dx, _dy, draw_message, -1, _boxw - _dx * 2);
+draw_text_ext(_dx + 50, _dy, draw_message, -1, _boxw - _dx * 2);
